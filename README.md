@@ -1,6 +1,8 @@
 # Customer Management Dashboard
 ### A Full-Stack Modern Web Application
 
+**[🔗 Live Demo](https://customer-management-dashboard-c2y5.vercel.app/)** | **[📂 GitHub Repository](https://github.com/Abhishekmishrz/customer-management-dashboard)**
+
 A professional, responsive, and high-performance customer management system built with the **MERN (React/Node/Express)** stack. This application provides a seamless interface for administrators to manage customer records with real-time feedback and a premium dark-themed aesthetic.
 
 ---
@@ -104,13 +106,11 @@ The application will be available at `http://localhost:5173`.
 
 ---
 
-## ☁️ Deployment
+This project is configured for **Vercel** for high availability and serverless performance.
 
-This project is configured for **Vercel**. 
-
-1. Push the code to GitHub.
-2. Connect the repository to Vercel.
-3. The `vercel.json` file automatically handles the routing for both the Frontend (Vite) and Backend (Express).
+- **Frontend Build**: Vite + React
+- **Backend Build**: Express Serverless Function
+- **Live URL**: [https://customer-management-dashboard-c2y5.vercel.app/](https://customer-management-dashboard-c2y5.vercel.app/)
 
 ---
 
