@@ -62,7 +62,11 @@ app.delete("/customers/:id", (req, res) => {
   res.json({ message: "Customer deleted successfully.", customer: deleted });
 });
 
-// Start server
-app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
-});
+// Start server (only if not running on Vercel)
+if (process.env.NODE_ENV !== 'production') {
+  app.listen(PORT, () => {
+    console.log(`Server is running on http://localhost:${PORT}`);
+  });
+}
+
+module.exports = app;
